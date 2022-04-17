@@ -9,7 +9,7 @@ df  = pd.read_csv(url , names=names)
 
 print(df) # dataframe
 
-array = df.values
+array = df.values # array
 X = array[:,0:8]
 y = array[:,8]
 
