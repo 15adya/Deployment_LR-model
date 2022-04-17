@@ -25,4 +25,4 @@ result = model.score(X_test , y_test)
 print(f'the accuracy of the model is {result}')
 
 #save the model
-pickle.dump(model , open('diabatic_80.pkl','wb')) # for pickle, file handling is used
+pickle.dump(model , open('diabatic_80.pkl','wb')) # for pickle, file handling is used for saving
