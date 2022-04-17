@@ -7,7 +7,7 @@ names = ['preg' , 'plas' , 'pres', 'skin' , 'test', 'mass' , 'pedi', 'age', 'cla
 
 df  = pd.read_csv(url , names=names)
 
-print(df)
+print(df) # dataframe
 
 array = df.values
 X = array[:,0:8]
