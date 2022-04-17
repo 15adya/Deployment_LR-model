@@ -1,13 +1,13 @@
 import pandas as pd
 from sklearn import model_selection
 from sklearn.linear_model import LogisticRegression
-import joblib
+import joblib # importing
 url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
 names = ['preg' , 'plas' , 'pres', 'skin' , 'test', 'mass' , 'pedi', 'age', 'class']
 
 df  = pd.read_csv(url , names=names)
 
-print(df)
+print(df)# dataframe
 
 array = df.values
 X = array[:,0:8]
